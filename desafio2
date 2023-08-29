@@ -1,0 +1,8 @@
+//Exercício extra
+let palavra = prompt('Digite uma palavra ');
+let palindromo = [palavra];
+
+palavra = palavra.split("");
+palavra = palavra.slice().reverse();
+palavra = palavra.join("");
+console.log(palavra);
